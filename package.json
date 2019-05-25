@@ -1,0 +1,32 @@
+{
+  "name": "kappa-letter-animation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Letter animation for kappa.london",
+  "keywords": [
+    "react",
+    "reactjs",
+    "p5",
+    "p5js",
+    "p5.js"
+  ],
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/razvan-soare/kappa-letter-animation"
+  },
+  "author": "soare-razvan",
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
