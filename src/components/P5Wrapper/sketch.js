@@ -113,31 +113,31 @@ export default function(p) {
     letter_1 = new Mesh(
       0,
       0,
-      objectSizes.width / 2 - spacing,
+      objectSizes.width / 4 - spacing,
       objectSizes.height / 2 - spacing,
       source_1
     );
 
     letter_2 = new Mesh(
-      objectSizes.width / 2,
+      objectSizes.width / 4,
       0,
-      objectSizes.width / 2 - spacing,
+      objectSizes.width / 4 - spacing,
       objectSizes.height / 2 - spacing,
       source_2
     );
 
     letter_3 = new Mesh(
+      objectSizes.width / 2,
       0,
-      objectSizes.height / 2,
-      objectSizes.width / 2 - spacing,
+      objectSizes.width / 4 - spacing,
       objectSizes.height / 2 - spacing,
       source_3
     );
 
     letter_4 = new Mesh(
-      objectSizes.width / 2,
-      objectSizes.height / 2,
-      objectSizes.width / 2 - spacing,
+      objectSizes.width - objectSizes.width / 4,
+      0,
+      objectSizes.width / 4 - spacing,
       objectSizes.height / 2 - spacing,
       source_4
     );
@@ -160,25 +160,25 @@ export default function(p) {
       letter_1.updatePositions(
         0,
         0,
-        objectSizes.width / 2 - spacing,
+        objectSizes.width / 4 - spacing,
         objectSizes.height / 2 - spacing
       );
       letter_2.updatePositions(
-        objectSizes.width / 2,
+        objectSizes.width / 4,
         0,
-        objectSizes.width / 2 - spacing,
+        objectSizes.width / 4 - spacing,
         objectSizes.height / 2 - spacing
       );
       letter_3.updatePositions(
+        objectSizes.width / 2,
         0,
-        objectSizes.height / 2,
-        objectSizes.width / 2 - spacing,
+        objectSizes.width / 4 - spacing,
         objectSizes.height / 2 - spacing
       );
       letter_4.updatePositions(
-        objectSizes.width / 2,
-        objectSizes.height / 2,
-        objectSizes.width / 2 - spacing,
+        objectSizes.width - objectSizes.width / 4,
+        0,
+        objectSizes.width / 4 - spacing,
         objectSizes.height / 2 - spacing
       );
     }
